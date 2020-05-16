@@ -1,1 +1,1 @@
-This repo contains the homework projects for UMB CS681 course.
+This repo contains the homework projects for UMB Object-Oriented-Software-Development course.
