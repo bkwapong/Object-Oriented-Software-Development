@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project default="run" name="HW19" basedir=".">
+
+	<property environment = "env"/>
+
+
+	<target name="run" depends="compile">
+		<java classname="edu.umb.cs.cs681.hw19.Main">
+			<classpath path="bin" />
+		</java>
+	</target>
+	
+	<target name="compile">
+		<delete dir="bin"/>
+		<mkdir dir ="bin"/>
+		<javac includeantruntime="true" srcdir="src" destdir="bin" >	
+
+		</javac>
+
+	</target>
+
+</project>
